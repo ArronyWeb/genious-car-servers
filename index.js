@@ -39,7 +39,7 @@ client.connect(err => {
 
     console.log("DB connected")
     // perform actions on the collection object
-    client.close();
+    // client.close();
 });
 
 async function run() {
